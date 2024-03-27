@@ -1,3 +1,7 @@
+<script>
+	const dataSubmit = async () => {};
+</script>
+
 <section id="contact" class="sm:px-6 px-2 py-12 bg-gray-100">
 	<div class="grid max-w-screen-xl grid-cols-1 px-4 py-8 mx-auto gap-3 lg:py-16 md:grid-cols-2">
 		<img
@@ -18,7 +22,7 @@
 				<a class="mr-6" href="#"><img src="/images/mail.png" alt="whatsapp" width="30" height="30" /></a>
 			</div> -->
 			<hr class="mt-0 border-gray-300 dark:border-gray-300 mb-4" />
-			<form>
+			<form on:submit|preventDefault={dataSubmit}>
 				<div class="mb-6 flex flex-col md:flex-row gap-5">
 					<input
 						type="text"
@@ -52,7 +56,9 @@
 				</div>
 				<h2 class="mb-4">How many bedrooms are you interested in?*</h2>
 				<div class="flex sm:flex-row flex-col w-full mb-6 gap-3">
-					<div class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50">
+					<div
+						class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50"
+					>
 						<input
 							id="bordered-radio-1"
 							type="radio"
@@ -60,13 +66,13 @@
 							name="bordered-radio"
 							class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
 						/>
-						<label
-							for="bordered-radio-1"
-							class="w-full py-4 ms-2 text-gray-600 text-md"
+						<label for="bordered-radio-1" class="w-full py-4 ms-2 text-gray-600 text-md"
 							>3 Bedroom Villas</label
 						>
 					</div>
-					<div class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50">
+					<div
+						class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50"
+					>
 						<input
 							checked
 							id="bordered-radio-2"
@@ -75,13 +81,13 @@
 							name="bordered-radio"
 							class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
 						/>
-						<label
-							for="bordered-radio-2"
-							class="w-full py-4 ms-2 text-gray-600 text-md"
+						<label for="bordered-radio-2" class="w-full py-4 ms-2 text-gray-600 text-md"
 							>4 Bedroom Villas</label
 						>
 					</div>
-					<div class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50">
+					<div
+						class="w-full flex items-center ps-4 border border-gray-300 rounded dark:border-gray-700 bg-gray-50"
+					>
 						<input
 							checked
 							id="bordered-radio-3"
@@ -90,9 +96,7 @@
 							name="bordered-radio"
 							class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
 						/>
-						<label
-							for="bordered-radio-3"
-							class="w-full py-4 ms-2 text-gray-600 text-md"
+						<label for="bordered-radio-3" class="w-full py-4 ms-2 text-gray-600 text-md"
 							>5 Bedroom Villas</label
 						>
 					</div>
@@ -101,16 +105,16 @@
 					id="comment"
 					rows="4"
 					class="w-full px-3 py-3 text-gray-900 bg-gray-50 border text-lg focus:ring-green-700 focus:border-green-700 border-gray-300 mb-2"
-					placeholder="Description"
-					required
+					placeholder="Message"
 				/>
 				<span class="font-light text-sm py-2 mb-1 text-gray-500">
-					By clicking Submit, you agree to our <a href="#"><u><b>Terms and Conditions</b></u></a>
+					By clicking Contact Us, you agree to our <a href="#"><u><b>Terms and Conditions</b></u></a
+					>
 					and
 					<a href="#"><u><b>Privacy Policy</b></u></a>.
 				</span>
 				<button
-					type="button"
+					type="submit"
 					class="mt-5 w-full text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-100 font-medium text-xl px-4 py-4 text-center mr-3 md:mr-0"
 					>Contact Us</button
 				>

@@ -1,4 +1,13 @@
+<script>
+	import Dialog from '$lib/components/Dialog.svelte';
+
+	let floorPlanBtnClicked = false;
+</script>
+
 <section id="location" class="px-2 sm:py-12 pt-7 py-4 bg-gray-100 sm:px-6">
+	{#if floorPlanBtnClicked}
+		<Dialog type={'DOWNLOAD FLOORPLAN'} bind:opened={floorPlanBtnClicked} />
+	{/if}
 	<div class="max-w-screen-xl px-4 mx-auto">
 		<h1 class="text-2xl text-green-900 sm:text-3xl">
 			PRIME LOCATION IN THE HEART OF DUBAI'S VILLA DISTRICT
@@ -59,11 +68,15 @@
 				5 bed villas - From AED 8.4M (4,875 sq.ft) - LAST UNITS
 			</p>
 
-			<p class="text-gray-800 text-lg sm:text-xl mb-10">Price Drop - Small 4 & 5 bed villas - download floorplan below.</p>
-			<a
-				href="#"
+			<p class="text-gray-800 text-lg sm:text-xl mb-10">
+				Price Drop - Small 4 & 5 bed villas - download floorplan below.
+			</p>
+			<button
+				on:click={() => {
+					floorPlanBtnClicked = true;
+				}}
 				class="btn-acres px-5 py-4 text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-				>Download Floor Plan</a
+				>Download Floor Plan</button
 			>
 		</div>
 		<div class="w-full flex justify-center sm:justify-end sm:mt-0 mt-10">

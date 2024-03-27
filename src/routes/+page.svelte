@@ -4,6 +4,9 @@
 	import Slider from '$lib/components/Slider.svelte';
 	import Amenties from '$lib/components/Amenties.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import Dialog from '$lib/components/Dialog.svelte';
+
+	let brochureBtnClicked = false;
 </script>
 
 <svelte:head>
@@ -12,6 +15,9 @@
 </svelte:head>
 
 <section id="hero" class="bg-gray-100 bg-img-main">
+	{#if brochureBtnClicked}
+		<Dialog type={'DOWNLOAD BROCHURE'} bind:opened={brochureBtnClicked} />
+	{/if}
 	<div class="relative isolate pt-14 lg:px-8 backdrop-blur-sm bg-black/45">
 		<div class="w-full flex flex-row justify-center">
 			<div class="flex-col text-center max-w-sm">
@@ -35,10 +41,12 @@
 						class="mb-3 btn-acres-invert px-4 sm:px-5 py-3 sm:py-4 text-lg sm:text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 						>Register Interest</a
 					>
-					<a
-						href="#"
+					<button
+						on:click={() => {
+							brochureBtnClicked = true;
+						}}
 						class="mb-3 btn-acres px-4 sm:px-5 py-3 sm:py-4 text-lg sm:text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-						>Download Brochure</a
+						>Download Brochure</button
 					>
 				</div>
 			</div>
