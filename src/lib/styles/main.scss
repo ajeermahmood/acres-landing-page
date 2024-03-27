@@ -7,6 +7,8 @@
 	--indus-gold: #f1cc76;
 	--indus-brown: #914718;
 	--indus-brown-light: #f8e2d4;
+	--acres-green: #36dea4;
+	--acres-green-dark: #25926c;
 }
 
 .gold-text {
@@ -14,6 +16,32 @@
 }
 .brown-text {
 	color: var(--indus-brown) !important;
+}
+
+.acres-green {
+	color: var(--acres-green) !important;
+}
+
+.btn-acres {
+	background: var(--acres-green) !important;
+	color: black !important;
+	transition: all 100ms ease-in-out;
+
+	&:hover {
+		background: var(--acres-green-dark) !important;
+		color: white !important;
+	}
+}
+
+.btn-acres-invert {
+	background: white !important;
+	color: black !important;
+	transition: all 100ms ease-in-out;
+
+	&:hover {
+		background: var(--acres-green) !important;
+		color: black !important;
+	}
 }
 
 .hover-gold-text {
@@ -31,7 +59,14 @@
 }
 
 .bg-img-main {
-	background-image: url('/images/bg-img3.avif');
+	background-image: url('/images/bg-img4.avif');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.bg-img-amenties {
+	background-image: url('/images/slider/slider-10.webp');
 	background-position: center;
 	background-repeat: repeat;
 	background-size: cover;
