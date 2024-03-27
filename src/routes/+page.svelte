@@ -19,7 +19,7 @@
 				<h1 class="text-2xl tracking-tight text-white sm:text-4xl">BY MERAAS - DUBAI PROPERTIES</h1>
 			</div>
 		</div>
-		<div class="mx-auto max-w-3xl py-32 sm:py-48 lg:py-40">
+		<div class="mx-auto max-w-3xl py-20 sm:py-48 lg:py-40">
 			<div class="text-center">
 				<h1 class="text-4xl tracking-tight text-white sm:text-7xl">
 					STANDALONE VILLAS IN DUBAI AT THE ACRES - NOW LAUNCHED
@@ -31,13 +31,13 @@
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6 sm:flex-row flex-col">
 					<a
-						href="#"
-						class="mb-3 btn-acres-invert px-5 py-4 text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+						href="#contact"
+						class="mb-3 btn-acres-invert px-4 sm:px-5 py-3 sm:py-4 text-lg sm:text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 						>Register Interest</a
 					>
 					<a
 						href="#"
-						class="mb-3 btn-acres px-5 py-4 text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+						class="mb-3 btn-acres px-4 sm:px-5 py-3 sm:py-4 text-lg sm:text-xl font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 						>Download Brochure</a
 					>
 				</div>

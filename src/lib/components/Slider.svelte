@@ -58,7 +58,7 @@
 	let forward = true;
 </script>
 
-<section id="slider" class="px-2 py-12 bg-gray-100 sm:px-6 pb-10 sm:pb-40">
+<section id="slider" class="px-2 sm:py-12 py-3 bg-gray-100 sm:px-6 pb-10 sm:pb-40">
 	<div class="max-w-screen-xl px-4 mx-auto">
 		<h1 class="text-2xl text-green-900 sm:text-3xl">DISCOVER THE BEAUTY OF THE ACRES</h1>
 		<hr class="mt-4 border-gray-300 dark:border-gray-300 mb-8" />

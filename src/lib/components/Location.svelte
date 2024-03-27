@@ -1,4 +1,4 @@
-<section id="contact" class="px-2 py-12 bg-gray-100 sm:px-6">
+<section id="location" class="px-2 sm:py-12 pt-7 py-4 bg-gray-100 sm:px-6">
 	<div class="max-w-screen-xl px-4 mx-auto">
 		<h1 class="text-2xl text-green-900 sm:text-3xl">
 			PRIME LOCATION IN THE HEART OF DUBAI'S VILLA DISTRICT
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 </section>
-<section id="contact" class="px-2 py-12 bg-gray-100 sm:px-6">
+<section id="payment" class="px-2 sm:py-12 py-3 bg-gray-100 sm:px-6">
 	<div class="max-w-screen-xl px-4 mx-auto">
 		<h1 class="text-2xl text-green-900 sm:text-3xl">
 			EASY 65/35 PAYMENT PLAN - OCTOBER 2027 HANDOVER
