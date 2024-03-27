@@ -19,7 +19,7 @@
 				mobileMenuBtn.classList.remove('text-white');
 				mobileMenuBtn.classList.add('text-black');
 				//
-				logoImg.src = '/images/logo/logo.png';
+				logoImg.src = 'images/logo/logo.png';
 				//
 				for (let index = 0; index < navbarBtns.length; index++) {
 					navbarBtns[index].classList.add('text-black');
@@ -35,7 +35,7 @@
 				mobileMenuBtn.classList.remove('text-black');
 				mobileMenuBtn.classList.add('text-white');
 				//
-				logoImg.src = '/images/logo/logo-white.png';
+				logoImg.src = 'images/logo/logo-white.png';
 				//
 				for (let index = 0; index < navbarBtns.length; index++) {
 					navbarBtns[index].classList.add('text-white');
@@ -50,7 +50,7 @@
 	<nav id="navbar" class="bg-transparent py-3 fixed w-full z-20 top-0 left-0">
 		<div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
 			<a href="/" class="flex items-center">
-				<img id="logo-img" src="/images/logo/logo-white.png" class="h-full" width="150" height="200" alt="A House" />
+				<img id="logo-img" src="images/logo/logo-white.png" class="h-full" width="150" height="200" alt="A House" />
 			</a>
 			<div class="flex md:order-2">
 				<button
@@ -126,7 +126,7 @@
 							<div class="flex flex-row items-center">
 								<img
 									class="drop-shadow-md"
-									src="/images/whatsapp.png"
+									src="images/whatsapp.png"
 									width="20"
 									height="10"
 									alt="whatsapp"

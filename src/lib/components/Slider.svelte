@@ -4,52 +4,52 @@
 	const images = [
 		{
 			alt: 'Image 01',
-			src: '/images/slider/slider-01.webp',
+			src: 'images/slider/slider-01.webp',
 			title: 'Slider Image 01'
 		},
 		{
 			alt: 'Image 02',
-			src: '/images/slider/slider-02.webp',
+			src: 'images/slider/slider-02.webp',
 			title: 'Slider Image 02'
 		},
 		{
 			alt: 'Image 03',
-			src: '/images/slider/slider-03.webp',
+			src: 'images/slider/slider-03.webp',
 			title: 'Slider Image 03'
 		},
 		{
 			alt: 'Image 04',
-			src: '/images/slider/slider-04.webp',
+			src: 'images/slider/slider-04.webp',
 			title: 'Slider Image 04'
 		},
 		{
 			alt: 'Image 05',
-			src: '/images/slider/slider-05.webp',
+			src: 'images/slider/slider-05.webp',
 			title: 'Slider Image 05'
 		},
 		{
 			alt: 'Image 06',
-			src: '/images/slider/slider-06.webp',
+			src: 'images/slider/slider-06.webp',
 			title: 'Slider Image 06'
 		},
 		{
 			alt: 'Image 07',
-			src: '/images/slider/slider-07.webp',
+			src: 'images/slider/slider-07.webp',
 			title: 'Slider Image 07'
 		},
 		{
 			alt: 'Image 08',
-			src: '/images/slider/slider-08.webp',
+			src: 'images/slider/slider-08.webp',
 			title: 'Slider Image 08'
 		},
 		{
 			alt: 'Image 09',
-			src: '/images/slider/slider-09.webp',
+			src: 'images/slider/slider-09.webp',
 			title: 'Slider Image 09'
 		},
 		{
 			alt: 'Image 10',
-			src: '/images/slider/slider-10.webp',
+			src: 'images/slider/slider-10.webp',
 			title: 'Slider Image 10'
 		}
 	];
@@ -71,7 +71,7 @@
 			bind:index
 		>
 			<Controls />
-			<Indicators class="sm:hidden"/>
+			<Indicators class="sm:hidden" />
 		</Carousel>
 		<Thumbnails class="sm:flex hidden" {images} {forward} bind:index />
 	</div>

@@ -2,7 +2,7 @@
 	<div class="mx-auto w-full max-w-screen-xl p-4 py-10 lg:py-16">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
-				<img src="/images/logo/ddplogo.svg" alt="logo" width="150" height="100" class="mb-10" />
+				<img src="images/logo/ddplogo.svg" alt="logo" width="150" height="100" class="mb-10" />
 
 				<ul class="text-gray-400 font-medium mt-3 space-y-2">
 					<li class="flex items-start gap-1">

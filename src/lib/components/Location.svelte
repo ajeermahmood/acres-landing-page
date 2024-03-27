@@ -23,7 +23,7 @@
 			<p class="text-gray-800 text-lg sm:text-xl mb-5">Mediclinic Parkview Hospital</p>
 		</div>
 		<div class="w-full">
-			<img src="/images/map.webp" alt="map" width="1000" height="700" class="" />
+			<img src="images/map.webp" alt="map" width="1000" height="700" class="" />
 		</div>
 	</div>
 </section>
@@ -67,7 +67,7 @@
 			>
 		</div>
 		<div class="w-full flex justify-center sm:justify-end sm:mt-0 mt-10">
-			<img src="/images/payment.webp" alt="map" width="400" height="700" class="" />
+			<img src="images/payment.webp" alt="map" width="400" height="700" class="" />
 		</div>
 	</div>
 </section>

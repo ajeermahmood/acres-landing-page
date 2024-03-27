@@ -7,12 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>Real Estate Svelte & TailwindCSS Template: Modern Home & Property Listings</title>
+	<title>THE ACRES DUBAI BY MERAAS - DUBAI PROPERTIES</title>
 	<meta name="description" content="Real Estate Template with Svelte and TailwindCss" />
 </svelte:head>
 
 <section id="hero" class="bg-gray-100 bg-img-main">
-	<div class="relative isolate pt-14 lg:px-8 backdrop-blur-sm bg-black/40">
+	<div class="relative isolate pt-14 lg:px-8 backdrop-blur-sm bg-black/45">
 		<div class="w-full flex flex-row justify-center">
 			<div class="flex-col text-center max-w-sm">
 				<h1 class="text-2xl tracking-tight text-white sm:text-4xl mb-5">THE ACRES DUBAI</h1>

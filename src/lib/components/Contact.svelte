@@ -1,7 +1,7 @@
 <section id="contact" class="sm:px-6 px-2 py-12 bg-gray-100">
 	<div class="grid max-w-screen-xl grid-cols-1 px-4 py-8 mx-auto gap-3 lg:py-16 md:grid-cols-2">
 		<img
-			src="/images/slider/slider-27.webp"
+			src="images/slider/slider-27.webp"
 			class="cover sm:w-5/6 w-full"
 			width="600"
 			height="200"
